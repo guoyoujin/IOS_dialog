@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <Button 
+        android:id="@+id/s"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="选择Dialog"
+	    />
+	<Button 
+        android:id="@+id/d"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="强制确定Dialog"
+	    />
+	<Button 
+        android:id="@+id/f"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="底部多选Dialog"
+	    />
+</LinearLayout>

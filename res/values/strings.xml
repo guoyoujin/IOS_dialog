@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeiXinTopDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	
+    <string name="pointMessage">提示信息</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+</resources>
